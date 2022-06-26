@@ -1,10 +1,9 @@
-var x = document.getElementById("Video");
-
-function over() {
-    x.play();
-}
-
-function out() {
-    x.pause();
+var start = 0;
+var end = 10;
+    
+while(start <= end) {
+    console.log("start: " + start + ", end: " + end);
+    start++;
+    end--;
 }
 
